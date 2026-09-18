@@ -1,0 +1,82 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# IDE / Editor
+
+.vscode/
+.idea/
+
+# Operating System
+
+.DS_Store
+Thumbs.db
+
+# Python Packaging
+
+*.egg-info/
+dist/
+build/
+
+# Logs
+
+*.log
+
+# Environment / Secrets
+
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Experimental / Unused Folders
+
+central_west_dataset/
+history/
+metrics/
+predictions/
+
+# Models
+
+models/*
+!models/cnn_bilstm_residual_attention_temperature_v8.keras
+
+# Unused / Intermediate Files
+
+clean_weather_data.csv
+clean_weather_data.parquet
+test_weather_data.csv
+
+create_test_cases.py
+create_test_csv.ipynb
+model_comparison.png
+ShortTimeAirTemperaturePredictionPr*.ipynb
+
+# Final Project Files
+
+# These are intentionally NOT ignored:
+# app.py
+# final_code_with_results.ipynb
+# requirements.txt
+# README.md
+# .gitignore
+# scalers/
+# screenshots/
+# test_cases/
