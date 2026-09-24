@@ -1,4 +1,4 @@
-# 🌡️ Short-Term Air Temperature Prediction Using Deep Learning
+# Short-Term Air Temperature Prediction Using Deep Learning
 
 A deep learning-based project for **short-term air temperature prediction** using hourly weather observations from Brazilian weather stations.
 
@@ -6,7 +6,7 @@ The project covers the complete machine learning workflow - from **data preproce
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Weather conditions change continuously and are influenced by several factors such as temperature, humidity, pressure, wind, solar radiation, and time of the day.
 
@@ -16,7 +16,7 @@ A Streamlit application is also developed to provide a simple interface for uplo
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Clean and preprocess large-scale hourly weather data.
 - Handle missing and invalid weather observations.
@@ -31,7 +31,7 @@ A Streamlit application is also developed to provide a simple interface for uplo
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **Climate Weather Surface of Brazil - Hourly** dataset containing observations from Brazilian weather stations.
 
@@ -68,7 +68,7 @@ month
 
 ---
 
-## ⚙️ Data Processing
+## Data Processing
 
 The major preprocessing steps include:
 
@@ -84,7 +84,7 @@ The major preprocessing steps include:
 
 ---
 
-## ⏱️ Temporal Feature Engineering
+## Temporal Feature Engineering
 
 Weather data contains strong daily and seasonal patterns. Cyclical encoding was therefore applied to time-related variables.
 
@@ -99,7 +99,7 @@ This allows the model to represent the cyclic nature of time, such as the relati
 
 ---
 
-## 🔢 Sequence Preparation
+## Sequence Preparation
 
 The model does not process individual weather records independently.
 
@@ -123,7 +123,7 @@ Therefore, the model input has the shape:
 
 ---
 
-## 🧠 Deep Learning Models
+## Deep Learning Models
 
 Several architectures were implemented and compared:
 
@@ -158,7 +158,7 @@ The CNN layers help capture local patterns, while BiLSTM processes temporal depe
 
 ---
 
-## 🎯 Custom Loss Function
+## Custom Loss Function
 
 The proposed model uses a combination of **MAE and Huber Loss**:
 
@@ -170,7 +170,7 @@ This provides a combination of absolute-error optimization and a loss function t
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 The models were evaluated using:
 
@@ -212,7 +212,7 @@ Saving the scalers ensures that new input data is transformed consistently with 
 
 ---
 
-# 🖥️ Streamlit Web Application
+# Streamlit Web Application
 
 A Streamlit-based interface was developed to make the trained model easier to use.
 
@@ -255,7 +255,7 @@ Convert Prediction Back to °C
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 ### Application Interface
 
@@ -279,7 +279,7 @@ Convert Prediction Back to °C
 
 ---
 
-## 🧪 Testing
+## Testing
 
 The Streamlit application was tested using different CSV test cases to verify both **prediction and input validation**.
 
@@ -297,7 +297,7 @@ These test cases are included in the `test_cases/` folder to demonstrate the app
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 PredictionofAirTemperature/
@@ -334,7 +334,7 @@ PredictionofAirTemperature/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Python**  
 **Pandas & NumPy** – Data processing  
@@ -347,7 +347,7 @@ PredictionofAirTemperature/
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 Clone the repository:
 
@@ -382,7 +382,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Scope and Limitations
+## Scope and Limitations
 
 This project focuses on **short-term air temperature prediction using the Brazilian weather data used for training and evaluation**.
 
@@ -392,7 +392,7 @@ The Streamlit application demonstrates model inference and data validation. Pred
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 
 - Integrate real-time weather APIs.
 - Support additional geographic regions.
@@ -404,7 +404,7 @@ The Streamlit application demonstrates model inference and data validation. Pred
 
 ---
 
-## 🎓 Key Learning Outcomes
+## Key Learning Outcomes
 
 This project provided practical experience with an end-to-end deep learning workflow:
 
@@ -423,7 +423,7 @@ This project provided practical experience with an end-to-end deep learning work
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Korada Neekshith**  
 B.Tech - Information Technology  
@@ -431,7 +431,7 @@ Aditya Institute of Technology and Management, Tekkali
 
 ---
 
-## 📌 Summary
+## Summary
 
 This project combines **weather-data preprocessing, temporal feature engineering, deep learning, CNN–BiLSTM architecture, attention mechanisms, and model evaluation** to predict short-term air temperature.
 
